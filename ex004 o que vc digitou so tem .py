@@ -1,0 +1,8 @@
+a= input('Digite sua senha: ')
+print('O que você digitou só tem números. ' , a.isnumeric())
+print('O que você digitou só tem letras.' , a.isalpha())
+print('O que você digitou tem números e letras.' , a.isalnum())
+print('O que você digitou só tem letras maiúscula.' , a.isupper())
+print('O que você digitou só tem letras minúsculas.' , a.islower())
+print('O que você digitou tem letras maiúsculas e minúsculas.' , a.istitle())
+print('O que você digitou só tem espaços.' , a.isspace())

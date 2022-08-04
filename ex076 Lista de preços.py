@@ -1,0 +1,6 @@
+l = ('Lápis', 'Borracha', 'Apontador', 'Caneta', 'Caderno')
+print('==' * 20)
+print('LISTAGEM DE PREÇOS')
+print('==' * 20)
+print(str.ljust(l))
+print('==' * 20)

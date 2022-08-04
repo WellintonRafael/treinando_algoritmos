@@ -1,0 +1,27 @@
+from random import choice
+print('-' * 15)
+n1 = str(input('Nome 01'))
+print('_' * 15)
+n2 = str(input('Nome 02'))
+print('_' * 15)
+n3 = str(input('Nome 03'))
+print('_' * 15)
+n4 = str(input('Nome 04'))
+print('_' * 15)
+n5 = str(input('Nome 05'))
+print('_' * 15)
+n6 = str(input('Nome 06'))
+print('_' * 15)
+n7 = str(input('Nome 07'))
+print('_' * 15)
+n8 = str(input('Nome 08'))
+print('_' * 15)
+n9 = str(input('Nome 09'))
+print('_' * 15)
+n10 = str(input('Nome 10'))
+lista = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
+result = choice(lista)
+print('Resultado do soteio: {}'.format(result))
+print('-' * 15)
+
+
